@@ -329,6 +329,9 @@ related to product development and customer engagement.''')
 plt.tight_layout()
 plt.show()
 ```
+---
+![image alt](https://github.com/SatyaGanesh07/Credit-Score-Prediction-Analysis/blob/d961ba28cc4129d430ca4bfd2e945cd7e6c9d72a/Visuals/visual%201.png)
+---
 --- 
 
 ## Age Demographics
@@ -356,6 +359,8 @@ retain older clients. ''')
 plt.tight_layout()
 plt.show()
 ```
+![image alt](https://github.com/SatyaGanesh07/Credit-Score-Prediction-Analysis/blob/d961ba28cc4129d430ca4bfd2e945cd7e6c9d72a/Visuals/visual%202.png)
+
 --- 
 
 ## Income Distrubution
@@ -404,6 +409,8 @@ for j in range(len(variables), len(axes)):
 plt.tight_layout()
 plt.show()
 ```
+![image alt](https://github.com/SatyaGanesh07/Credit-Score-Prediction-Analysis/blob/d961ba28cc4129d430ca4bfd2e945cd7e6c9d72a/Visuals/visual%203.png)
+
 --- 
 
 ## Credit Utilization 
@@ -427,6 +434,8 @@ and deviations outside of it are minimal.''')
 plt.tight_layout()
 plt.show()
 ```
+![image alt](https://github.com/SatyaGanesh07/Credit-Score-Prediction-Analysis/blob/d961ba28cc4129d430ca4bfd2e945cd7e6c9d72a/Visuals/visual%204%20.png)
+
 --- 
 ## Distribution Of Interest Rate
 
@@ -446,7 +455,9 @@ This suggests a diverse spread of interest rates with concentrations at specific
 plt.tight_layout()
 plt.show()
 ```
+![image alt](https://github.com/SatyaGanesh07/Credit-Score-Prediction-Analysis/blob/d961ba28cc4129d430ca4bfd2e945cd7e6c9d72a/Visuals/visual%205%20.png)
 
+--- 
 # **Bivariate Analysis**
 ## Age and impact on it's Credit Score
 ### Chart - 6 visualization 
@@ -470,6 +481,9 @@ This indicates that age does not strongly influence credit score differences in 
 plt.tight_layout()
 plt.show()
 ```
+![image alt](https://github.com/SatyaGanesh07/Credit-Score-Prediction-Analysis/blob/d961ba28cc4129d430ca4bfd2e945cd7e6c9d72a/Visuals/visual%206.png)
+
+--- 
 ### Chart - 7 visualization code
 ```python
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(18,10))
@@ -497,7 +511,9 @@ with better credit scores. ''')
 plt.tight_layout()
 plt.show()
 ```
+![image alt](https://github.com/SatyaGanesh07/Credit-Score-Prediction-Analysis/blob/d961ba28cc4129d430ca4bfd2e945cd7e6c9d72a/Visuals/visual%207-.png)
 
+---
 ### The Relationship Between Credit Inquiries and Credit Score
 
 ```python
@@ -528,12 +544,24 @@ apply_chart_styling(
 plt.tight_layout()
 plt.show()
 ```
-
-
+![image alt](https://github.com/SatyaGanesh07/Credit-Score-Prediction-Analysis/blob/d961ba28cc4129d430ca4bfd2e945cd7e6c9d72a/Visuals/visual%207.png)
 
 ---
+# **5. Solution to Business Objective**
+I suggest the client implement a predictive credit scoring model. This model can accurately predict individual credit scores based on customer data, enabling Paisabazaar to achieve its business objectives of:
 
+Enhancing Credit Risk Management: By accurately assessing creditworthiness, the model can help minimize the risk of loan defaults and bad debt.
 
+Personalizing Financial Product Recommendations: Tailored financial product offerings based on predicted credit scores can improve customer satisfaction and engagement.
+
+Optimizing Loan Approval Processes: Automated credit score predictions can streamline the loan approval process, leading to faster and more efficient decisions.
+
+Increasing Customer Satisfaction: Providing personalized financial advice and product recommendations can enhance customer trust and loyalty.
+The model can be built using machine learning techniques, leveraging features such as income, credit card usage, loan history, and payment behavior to predict credit scores with high accuracy.
+
+--- 
+# **Conclusion**
+The analysis of customer data provides valuable insights into the factors influencing credit scores and offers guidance for Paisabazaar's credit assessment processes. Key findings include a focus on the working population aged 25-45, a significant portion of customers with moderate to high earning capacity, a balanced credit score distribution with a notable portion having poor credit scores, responsible credit management among customers, a competitive market with varying interest rates, and the importance of age, income, credit utilization, and payment history in influencing credit scores. These findings offer valuable insights for Paisabazaar to refine their credit assessment models and improve risk management strategies by focusing on specific customer segments and tailoring their financial product offerings. Additionally, the analysis highlights the need for continuous monitoring of credit score trends and customer behavior to stay updated with evolving financial landscapes.
 # Tools & Technologies
 
 * **Python**
